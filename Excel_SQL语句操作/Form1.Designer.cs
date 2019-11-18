@@ -88,6 +88,7 @@
             this.button2.TabIndex = 3;
             this.button2.Text = "插入";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -98,6 +99,7 @@
             this.button3.TabIndex = 4;
             this.button3.Text = "删除";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -108,6 +110,7 @@
             this.button4.TabIndex = 5;
             this.button4.Text = "修改";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // dataGridView1
             // 
@@ -141,6 +144,7 @@
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Enabled = false;
             this.groupBox1.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.groupBox1.Location = new System.Drawing.Point(12, 340);
             this.groupBox1.Name = "groupBox1";
@@ -195,6 +199,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 26);
             this.textBox2.TabIndex = 4;
+            this.textBox2.Text = "1";
             // 
             // textBox3
             // 
@@ -202,6 +207,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 26);
             this.textBox3.TabIndex = 5;
+            this.textBox3.Text = "龙嗷嗷";
             // 
             // textBox4
             // 
@@ -209,6 +215,7 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 26);
             this.textBox4.TabIndex = 6;
+            this.textBox4.Text = "语言班";
             // 
             // textBox5
             // 
@@ -216,6 +223,7 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(100, 26);
             this.textBox5.TabIndex = 7;
+            this.textBox5.Text = "123-456";
             // 
             // button6
             // 
@@ -226,6 +234,7 @@
             this.button6.TabIndex = 8;
             this.button6.Text = "提交";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
