@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.852
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excel_SQL语句操作", "Excel_SQL语句操作\Excel_SQL语句操作.csproj", "{698D77E7-FDB6-4DE0-9365-7C19D6A1F9E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excel_ClassLibrary", "Excel_ClassLibrary\Excel_ClassLibrary.csproj", "{E3F3D965-E449-48BE-9C1B-F7EC27F23E11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{698D77E7-FDB6-4DE0-9365-7C19D6A1F9E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{698D77E7-FDB6-4DE0-9365-7C19D6A1F9E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{698D77E7-FDB6-4DE0-9365-7C19D6A1F9E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3F3D965-E449-48BE-9C1B-F7EC27F23E11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3F3D965-E449-48BE-9C1B-F7EC27F23E11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3F3D965-E449-48BE-9C1B-F7EC27F23E11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3F3D965-E449-48BE-9C1B-F7EC27F23E11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
